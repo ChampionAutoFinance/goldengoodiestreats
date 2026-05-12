@@ -1,0 +1,18 @@
+{
+  "name": "Golden Goodies Treats",
+  "short_name": "Golden Goodies",
+  "description": "Premium homemade dog treats made with all natural, organic, simple ingredients.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fffdf8",
+  "theme_color": "#2f6f4e",
+  "icons": [
+    {
+      "src": "/assets/profile.jpg",
+      "sizes": "320x320",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}
