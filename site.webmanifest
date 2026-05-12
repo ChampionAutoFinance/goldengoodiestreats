@@ -14,5 +14,13 @@
       "type": "image/jpeg",
       "purpose": "any"
     }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/social-preview.jpg",
+      "sizes": "1200x630",
+      "type": "image/jpeg",
+      "form_factor": "wide"
+    }
   ]
 }
