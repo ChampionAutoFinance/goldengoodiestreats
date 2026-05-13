@@ -39,7 +39,8 @@
 
     const quantity = clampQuantity(quantityInput.value);
     const treats = quantity * 3;
-    message.textContent = `Preview order: ${quantity} bag${quantity === 1 ? "" : "s"} / ${treats} treats. Message us on Instagram to complete your order.`;
+    message.textContent = `DM to order: ${quantity} bag${quantity === 1 ? "" : "s"} / ${treats} treats. Opening Instagram...`;
+    window.open("https://ig.me/m/goldengoodiestreats", "_blank", "noopener");
   });
 
   updateTotal();
