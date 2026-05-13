@@ -2,6 +2,10 @@
 
 Static GitHub Pages site for `goldengoodiestreats.com`.
 
+## Online Ordering
+
+The order page is `order.html`. It is a static visual order page for Peanut Butter Goodies at `$6` per bag. The quantity controls update the preview total in the browser and the preview button shows the bag/treat count.
+
 ## GitHub Pages
 
 - Repository: `ChampionAutoFinance/goldengoodiestreats`

@@ -3,7 +3,7 @@
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://goldengoodiestreats.com/</loc>
-    <lastmod>2026-05-12</lastmod>
+    <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -14,6 +14,16 @@
       <image:loc>https://goldengoodiestreats.com/assets/DYFASygjh98.jpg</image:loc>
       <image:title>Golden Goodies Treats at The Grind Colts Neck</image:title>
     </image:image>
+    <image:image>
+      <image:loc>https://goldengoodiestreats.com/assets/C_zQAcyOlPa.jpg</image:loc>
+      <image:title>Peanut Butter Golden Goodies Dog Treats</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://goldengoodiestreats.com/order.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
     <image:image>
       <image:loc>https://goldengoodiestreats.com/assets/C_zQAcyOlPa.jpg</image:loc>
       <image:title>Peanut Butter Golden Goodies Dog Treats</image:title>

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Order Online | Golden Goodies Treats</title>
+    <meta
+      name="description"
+      content="Order Golden Goodies Treats peanut butter dog treats online. Each bag includes 3 homemade treats for $6."
+    >
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#2f6f4e">
+    <link rel="canonical" href="https://goldengoodiestreats.com/order.html">
+    <link rel="icon" href="assets/profile.jpg" type="image/jpeg">
+    <link rel="apple-touch-icon" href="assets/profile.jpg">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="Golden Goodies navigation">
+      <a class="brand" href="index.html#top" aria-label="Golden Goodies home">
+        <img src="assets/profile.jpg" alt="Golden Goodies logo">
+        <span>Golden Goodies</span>
+      </a>
+      <nav>
+        <a href="index.html#treats">Treats</a>
+        <a href="order.html" aria-current="page">Order online</a>
+        <a href="index.html#happy-pups">Happy pups</a>
+        <a href="https://www.instagram.com/goldengoodiestreats/" target="_blank" rel="noopener">Instagram</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="order-hero" aria-labelledby="order-title">
+        <div class="order-copy">
+          <p class="eyebrow">Online ordering</p>
+          <h1 id="order-title">Order Peanut Butter Goodies</h1>
+          <p class="lead">
+            Each bag includes 3 homemade peanut butter treats for $6. Choose a quantity to preview your order before messaging us to complete it.
+          </p>
+        </div>
+        <div class="order-card" aria-label="Peanut Butter Goodies order form">
+          <img src="assets/C_zQAcyOlPa.jpg" alt="Bag of Golden Goodies peanut butter treats">
+          <div class="order-card-body">
+            <div class="product-summary">
+              <div>
+                <span>Peanut Butter Goodies</span>
+                <strong>$6 per bag</strong>
+              </div>
+              <small>3 treats per bag</small>
+            </div>
+
+            <form id="order-form" class="order-form">
+              <label for="quantity">Bags</label>
+              <div class="quantity-row">
+                <button type="button" class="quantity-button" data-step="-1" aria-label="Decrease quantity">-</button>
+                <input id="quantity" name="quantity" type="number" min="1" max="20" value="1" inputmode="numeric" required>
+                <button type="button" class="quantity-button" data-step="1" aria-label="Increase quantity">+</button>
+              </div>
+              <div class="order-total" aria-live="polite">
+                <span>Total</span>
+                <strong id="total">$6.00</strong>
+              </div>
+              <button class="button primary checkout-button" type="submit">
+                Preview order
+              </button>
+              <p id="order-message" class="form-message" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>Golden Goodies</strong>
+        <a class="instagram-link" href="https://www.instagram.com/goldengoodiestreats/" target="_blank" rel="noopener" aria-label="Open Golden Goodies Treats on Instagram">
+          <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false">
+            <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+            <circle cx="12" cy="12" r="4"></circle>
+            <circle cx="17.5" cy="6.5" r="1.2"></circle>
+          </svg>
+          <span>@goldengoodiestreats</span>
+        </a>
+      </div>
+      <a class="button primary" href="https://ig.me/m/goldengoodiestreats" target="_blank" rel="noopener">
+        Message us
+      </a>
+    </footer>
+
+    <script src="order.js"></script>
+  </body>
+</html>
